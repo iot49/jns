@@ -52,7 +52,7 @@ sudo -u pi ./inst_pi_hardware.sh
 # ./inst_R-3.0.6.sh
 
 # install the SQLite3 kernel
-# sudo -u pi ./inst_sqlite.sh
+sudo -u pi ./inst_sqlite.sh
 
 # install opencv
 ./inst_opencv.sh
