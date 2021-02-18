@@ -20,7 +20,7 @@ apt install -y libgstreamer1.0-0
 apt install -y libavcodec-extra57
 apt install -y libavformat-dev
 apt install -y libilmbase12
-apt onstall -y libavcodec-dev
+apt install -y libavcodec-dev
 apt install -y libswscale-dev 
 apt install -y libv4l-dev
 apt install -y libgtk2.0-dev 
