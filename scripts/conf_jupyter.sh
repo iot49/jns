@@ -21,7 +21,6 @@ source $env/bin/activate
 
 jupyter notebook -y --generate-config
 cd $home
-mkdir -p notebooks
 
 target=~/.jupyter/jupyter_notebook_config.py
 
@@ -32,7 +31,7 @@ arr+=(["$app.open_browser"]="$app.open_browser = False")
 arr+=(["$app.ip"]="$app.ip ='*'")
 arr+=(["$app.port"]="$app.port = 8888")
 arr+=(["$app.enable_mathjax"]="$app.enable_mathjax = True")
-arr+=(["$app.notebook_dir"]="$app.notebook_dir = '/home/pi/notebooks'")
+arr+=(["$app.notebook_dir"]="$app.notebook_dir = '/home/pi/iot49'")
 arr+=(["$app.password"]="$app.password = 'sha1:5815fb7ca805:f09ed218dfcc908acb3e29c3b697079fea37486a'")
 arr+=(["$app.allow_remote_access"]="$app.allow_remote_access = True")
 
