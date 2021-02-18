@@ -55,4 +55,4 @@ sudo -u pi ./inst_pi_hardware.sh
 # sudo -u pi ./inst_sqlite.sh
 
 # install opencv
-# ./inst_opencv.sh
+./inst_opencv.sh
