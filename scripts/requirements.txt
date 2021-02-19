@@ -1,3 +1,4 @@
+iot-kernel
 absl-py==0.7.1
 alabaster==0.7.12
 altair==2.4.1
