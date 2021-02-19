@@ -50,6 +50,9 @@ done
 # install bash kernel
 python3 -m bash_kernel.install
 
+# install iot kernel
+python3 -m iot_kernel.install
+
 # install extensions
 jupyter serverextension enable --py jupyterlab
 jupyter nbextension enable --py widgetsnbextension --sys-prefix
