@@ -47,9 +47,6 @@ for key in ${!arr[@]};do
     fi
 done
 
-# install bash kernel
-python3 -m bash_kernel.install
-
 # install iot kernel
 python3 -m iot_kernel.install
 
