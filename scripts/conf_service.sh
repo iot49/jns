@@ -29,6 +29,8 @@ ExecStart=/home/pi/jupyter_start.sh
 User=pi
 Group=pi
 WorkingDirectory=/home/pi/iot49
+Environment="IOT=/home/pi"
+Environment="IOT49=/home/pi/iot49"
 Restart=always
 RestartSec=10
 
