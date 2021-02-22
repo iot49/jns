@@ -19,7 +19,7 @@ fi
 # activate virtual environment
 source $env/bin/activate
 
-pip3 install pip==9.0.0
+pip3 install pip
 pip3 install setuptools
 pip3 install wheel
 pip3 install -U pip
