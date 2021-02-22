@@ -25,4 +25,5 @@ apt -y install python3-pip
 apt -y install python3-venv
 apt -y install libzmq3-dev
 apt -y install sqlite3
+apt -y install dfu-util
  
