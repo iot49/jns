@@ -42,9 +42,6 @@ sudo -u pi ./inst_pi_hardware.sh
 # OPTIONAL, DISABLED BY DEFAULT
 #-----------------------------------------------
 
-# install Julia 0.6.0 and the IJulia kernel NOT RECOMMENDED
-# ./inst_julia-0.6.0.sh
-
 # install Julia 1.1.0 and the IJulia kernel
 # ./inst_julia-1.1.0.sh
 
@@ -52,7 +49,7 @@ sudo -u pi ./inst_pi_hardware.sh
 # ./inst_R-3.0.6.sh
 
 # install the SQLite3 kernel
-sudo -u pi ./inst_sqlite.sh
+# sudo -u pi ./inst_sqlite.sh
 
 # install opencv
 ./inst_opencv.sh
