@@ -1,14 +1,7 @@
+nbconvert<6
 jupyter
 jupyterlab
 readline
-async-generator
-backcall
-blinker
-cryptography
-imporlib-metadata
-oauthlib
-pamela
-pycosat
 pycurl
 python-editor
 python-json-logger
