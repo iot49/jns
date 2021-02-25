@@ -30,7 +30,7 @@ app='c.ServerApp'
 arr+=(["$app.open_browser"]="$app.open_browser = False")
 arr+=(["$app.ip"]="$app.ip ='*'")
 arr+=(["$app.port"]="$app.port = 8888")
-arr+=(["NotebookApp.enable_mathjax"]="NotebookApp.enable_mathjax = True")
+arr+=(["c.NotebookApp.enable_mathjax"]="c.NotebookApp.enable_mathjax = True")
 arr+=(["$app.root_dir"]="$app.root_dir = '/home/pi/iot49'")
 arr+=(["$app.password"]="$app.password = 'sha1:5815fb7ca805:f09ed218dfcc908acb3e29c3b697079fea37486a'")
 arr+=(["$app.allow_remote_access"]="$app.allow_remote_access = True")
